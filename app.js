@@ -1,5 +1,5 @@
 // Establish a WebSocket connection
-const socket = new WebSocket('ws://your-server-url:PORT');  // Replace with your backend WebSocket URL and port
+const socket = new WebSocket('wss://faff-198-48-245-203.ngrok-free.app:5555');  // Replace with your backend WebSocket URL and port
 
 // DOM elements
 const messagesContainer = document.getElementById('messages');
